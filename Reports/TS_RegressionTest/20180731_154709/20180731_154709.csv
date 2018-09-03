@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,,,2018-07-31 15:47:13,2018-07-31 15:49:34,2m - 21.048s,PASSED
+,,,,,,
+Test Cases/TC01_Verify Correct Alarm Message,,"- An automation script to help user getting started with Mobile automation testing.\n- Script Content: Click \""START ALARM SERVICE\"" and click \""STOP ALARM SERVICE\"", verify alert show is correct",2018-07-31 15:47:13,2018-07-31 15:48:37,1m - 23.921s,PASSED
+comment,,,2018-07-31 15:47:14,2018-07-31 15:47:14,0.082s,PASSED
+comment,,,2018-07-31 15:47:14,2018-07-31 15:47:14,0.005s,PASSED
+"Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Get full directory's path of android application,2018-07-31 15:47:14,2018-07-31 15:47:14,0.042s,PASSED
+startApplication,,,2018-07-31 15:47:14,2018-07-31 15:48:27,1m - 13.423s,PASSED
+comment,,,2018-07-31 15:48:27,2018-07-31 15:48:27,0.003s,PASSED
+tap,,,2018-07-31 15:48:27,2018-07-31 15:48:28,0.721s,PASSED
+tap,,,2018-07-31 15:48:28,2018-07-31 15:48:29,1.083s,PASSED
+comment,,,2018-07-31 15:48:29,2018-07-31 15:48:29,0.006s,PASSED
+tap,,,2018-07-31 15:48:29,2018-07-31 15:48:30,1.056s,PASSED
+"Statement - message = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog), 10)",,Get displayed message on the dialog,2018-07-31 15:48:30,2018-07-31 15:48:31,0.800s,PASSED
+comment,,,2018-07-31 15:48:31,2018-07-31 15:48:31,0.006s,PASSED
+verifyEqual,,,2018-07-31 15:48:31,2018-07-31 15:48:31,0.029s,PASSED
+closeApplication,,,2018-07-31 15:48:31,2018-07-31 15:48:37,6.033s,PASSED
+,,,,,,
+Test Cases/TC02_Verify Last Items In List,,- An automation script to help user getting started with Mobile automation testing.\n- Script Content: Open the application and verify the items show full when the items over loading,2018-07-31 15:48:37,2018-07-31 15:49:34,56.468s,PASSED
+comment,,,2018-07-31 15:48:37,2018-07-31 15:48:37,0.002s,PASSED
+comment,,,2018-07-31 15:48:37,2018-07-31 15:48:37,0.003s,PASSED
+"Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Get full directory's path of android application,2018-07-31 15:48:37,2018-07-31 15:48:37,0.001s,PASSED
+startApplication,,,2018-07-31 15:48:37,2018-07-31 15:49:20,42.998s,PASSED
+comment,,,2018-07-31 15:49:20,2018-07-31 15:49:20,0.004s,PASSED
+tap,,,2018-07-31 15:49:20,2018-07-31 15:49:21,0.378s,PASSED
+comment,,,2018-07-31 15:49:21,2018-07-31 15:49:21,0.003s,PASSED
+scrollToText,,,2018-07-31 15:49:21,2018-07-31 15:49:28,7.189s,PASSED
+comment,,,2018-07-31 15:49:28,2018-07-31 15:49:28,0.005s,PASSED
+"Statement - itemText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/Graphics/android.widget.TextView - Xfermodes), G_Timeout)",,Get item's label,2018-07-31 15:49:28,2018-07-31 15:49:28,0.194s,PASSED
+verifyEqual,,,2018-07-31 15:49:28,2018-07-31 15:49:28,0.004s,PASSED
+closeApplication,,,2018-07-31 15:49:28,2018-07-31 15:49:34,5.397s,PASSED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>SampleMobile</name>
+   <tag></tag>
+   <UUID>0d644c08-8284-486a-8a50-4cd25d36e059</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
